@@ -1,0 +1,47 @@
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 100px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+}
+.jumbotron {
+	background-image: url("../img/header.jpg");
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 100px
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold
+}
+
+.jumbotron h2 {
+	color: #fff;
+	font-size: 29px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold
+}
+
+.jumbotron p {
+	font-size: 21px;
+	color: #fff
+}
